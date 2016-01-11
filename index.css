@@ -1,0 +1,51 @@
+/*css*/
+#Home  input ,#pointcalc input,#azzera input,#modifica input,#rules input
+{
+	font-size:300%;
+}
+#Home  a ,#pointcalc a,#azzera a,#modifica a,#rules a, #rules p,#rules ul
+{font-size:250%;}
+#nav a
+{
+	font-size:300%;
+}
+header
+{
+	padding:2%;
+}
+h1
+{
+	font-size:440%;	
+}
+h2
+{font-size:340%}
+h3
+{font-size:240%}
+h4
+{font-size:140%}
+#nav
+{
+	text-align:center;
+	width:100%;
+}
+#footer
+{
+	text-align:center;
+}
+#footer a
+{
+	margin:0 20px 0 20px;
+}
+#scores
+{
+	width:100%;
+	text-align:center;
+}
+#cont h1
+{
+	text-align:center;	
+}
+#result
+{
+	text-align:center;
+}
