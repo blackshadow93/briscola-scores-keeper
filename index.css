@@ -1,14 +1,5 @@
 /*css*/
-#Home  input ,#pointcalc input,#azzera input,#modifica input,#rules input
-{
-	font-size:300%;
-}
-#Home  a ,#pointcalc a,#azzera a,#modifica a,#rules a, #rules p,#rules ul
-{font-size:250%;}
-#nav a
-{
-	font-size:300%;
-}
+
 header
 {
 	padding:2%;
