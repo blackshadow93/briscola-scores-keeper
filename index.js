@@ -57,6 +57,6 @@ $("#calcCharge").click(function()
 	rb=parseInt(document.getElementById("Bris").value);
 	$("#Home #Aris").html(ca+ra);
 	$("#Home #Bris").html(cb+rb);
-	$("calcA").html(0);
-	$("calcB").html(0);
+	$("#calcA").html(0);
+	$("#calcB").html(0);
 });
