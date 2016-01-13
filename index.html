@@ -2,19 +2,18 @@
 
 <head>
 	
+	<title>Briscola Score Keeper</title>
+	<meta charset="utf-8" />
 	<link rel="stylesheet" href="index.css">
 	<!-- Include meta tag to ensure proper rendering and touch zooming -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Include jQuery Mobile stylesheets -->
-	<link rel="stylesheet" href="jqueryasset/jquery.mobile-1.4.5.min.css">
-
-	<!-- Include the jQuery library -->
-	<script src="jqueryasset/jquery-1.11.3.min.js"></script>
-
-	<!-- Include the jQuery Mobile library -->
-	<script src="jqueryasset/jquery.mobile-1.4.5.min.js"></script>
-
+	<link rel="stylesheet" href="briscola.min.css" />
+	<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="jqueryassets/jquery.mobile.structure-1.4.5.min.css" /> 
+	<script src="jqueryassets/jquery-1.11.1.min.js"></script> 
+	<script src="jqueryassets/jquery.mobile-1.4.5.min.js"></script>
+	
 	
 </head>
 <body>
@@ -69,36 +68,61 @@
 			<a href="#rules" class="ui-btn">Regole</a>
 		</div>
 		<section id="cont" data-role="content">
-			<fieldset>
+			<table id="calctab">
 			
+			<tr>
+			<td>
 			<label><h3>Quanti Assi?</h3></label>
-			<input id="aces" type="number" value=0>
+			<input id="aces" type="number" value=0 min="0" max="4">
+			</td>
 			
+			<td>
 			<label><h3>Quanti 3?</h3></label>
-			<input id="tre" type="number" value=0>
-			
+			<input id="tre" type="number" value=0 min="0" max="4">
+			</td>
+
+			<td>
 			<label><h3>Quante Donne?</h3></label>
-			<input id="wmn" type="number" value=0>
+			<input id="wmn" type="number" value=0 min="0" max="4">
+			</td>
+			</tr>
 			
+			<tr>
+			
+			<td>
 			<label><h3>Quanti Fanti?</h3></label>
-			<input id="fnt" type="number" value=0>
+			<input id="fnt" type="number" value=0 min="0" max="4">
+			</td>
 			
+			<td>
 			<label><h3>Quanti Re?</h3></label>
-			<input id="kn" type="number" value=0>
+			<input id="kn" type="number" value=0 min="0" max="4">
+			</td>
 			
+			<td>
 			<label><h3>Quante Venti?</h3></label>
-			<input id="av" type="number" value=0>
+			<input id="av" type="number" value=0 min="0" max="4">
+			</td>
+			</tr>
 			
+			<tr>
+			<td>
 			<label><h3>Quante Quaranta?</h3></label>
-			<input id="aq" type="number" value=0>
+			<input id="aq" type="number" value=0 min="0" max="4">
+			</td>
 			
+			<td>
 			<label><h3>Quante Venti-Avversario?</h3></label>
-			<input id="bv" type="number" value=0>
+			<input id="bv" type="number" value=0 min="0" max="4">
+			</td>
 			
+			<td>
 			<label><h3>Quante Quaranta-Avversario?</h3></label>
-			<input id="bq" type="number" value=0>
+			<input id="bq" type="number" value=0 min="0" max="4">
+			</td>
+			</tr>
 			
-			</fieldset>
+			</table>
 			<div id="result">
 			<h2>HAI TOTALIZZATO</h2>
 			<h2 id="calcA">0</h2>
