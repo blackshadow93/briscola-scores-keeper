@@ -4,7 +4,10 @@ header
 {
 	padding:2%;
 }
-
+#calctab tr td h3
+{
+	font-size:14px;
+}
 #nav
 {
 	text-align:center;
