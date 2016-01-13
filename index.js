@@ -50,6 +50,13 @@ $("#calc").click(function()
 
 $("#calcCharge").click(function()
 {
-	$("#Home #Aris").html($("#calcA").html());
-	$("#Home #Bris").html($("#calcB").html());
+	var ca,cb,ra,rb;
+	ca=parseInt(document.getElementById("calcA"));
+	cb=parseInt(document.getElementById("calcB"));
+	ra=parseInt(document.getElementById("Aris"));
+	rb=parseInt(document.getElementById("Bris"));
+	$("#Home #Aris").html(ca+ra);
+	$("#Home #Bris").html(cb+rb);
+	$("calcA").html(0);
+	$("calcB").html(0);
 });
