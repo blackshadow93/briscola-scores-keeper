@@ -51,10 +51,10 @@ $("#calc").click(function()
 $("#calcCharge").click(function()
 {
 	var ca,cb,ra,rb;
-	ca=parseInt(document.getElementById("calcA"));
-	cb=parseInt(document.getElementById("calcB"));
-	ra=parseInt(document.getElementById("Aris"));
-	rb=parseInt(document.getElementById("Bris"));
+	ca=parseInt(document.getElementById("calcA").value);
+	cb=parseInt(document.getElementById("calcB").value);
+	ra=parseInt(document.getElementById("Aris").value);
+	rb=parseInt(document.getElementById("Bris").value);
 	$("#Home #Aris").html(ca+ra);
 	$("#Home #Bris").html(cb+rb);
 	$("calcA").html(0);
